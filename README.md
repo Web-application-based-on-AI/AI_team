@@ -56,6 +56,11 @@ In this section you will know More bout this interesting project :smiley:
    import string
    from sklearn.model_selection import train_test_split
    from sklearn.feature_extraction.text import CountVectorizer
+   from sklearn.preprocessing import LabelEncoder
+   import nltk
+   nltk.download('stopwords')
+   from nltk.corpus import stopwords
+
 
    
 ```
@@ -232,6 +237,25 @@ naive_bayes.fit(training_data,y_train)
 ```
 ---
 
+### stop of wards 
+
+```
+zstop= pd.read_csv('/content/drive/My Drive/Colab Notebooks/nlp/zstopword - Sheet1.csv',header=None ,encoding="utf-8")
+preprocessed_documents = []
+for i in zstop[0]:
+    preprocessed_documents.append(i)
+print(preprocessed_documents)
+len(preprocessed_documents)
+
+```
+- output
+
+- output
+<p  width = 300 , height = 20>
+  <img src="./images/stopwards.PNG"/>
+</p>
+
+
 ### Evaluating our model
 
 ```
@@ -244,7 +268,7 @@ print(predictions)
 
 - output
 <p  width = 300 , height = 20>
-  <img src="./images/out.PNG"/>
+  <img src="./images/output2.PNG"/>
 </p>
 
 
@@ -273,6 +297,11 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
   <img src="./images/accuarcy using ntlk stop wards and using stemming .jpg"/>
 </p>
 
+* accuarcy using big stop words of nltk and mine 1973 total length
+
+<p align = "center" ,width = 300 , height = 400>
+  <img src="./images/after_stopwards_total.jpg">
+</p>
 
 ### stemming
 
