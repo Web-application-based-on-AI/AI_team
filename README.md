@@ -291,8 +291,11 @@ print(predictions)
 
 ```
 - output
-| input         		      |     label	        					|
+
+input         		                  label	        				
+
 |:---------------------:|:---------------------------------------------:|
+
 <p  width = 300 , height = 20>
   <img src="./images/output2n.PNG"/>
 </p>
