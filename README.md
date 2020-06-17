@@ -17,6 +17,7 @@ In this section you will know More bout this interesting project :smiley:
 - [Prerequisites](#Prerequisites)
 - [Installing](#Installing)
 - [steps of this project](#steps_of_this_project)
+- [Description of this data](#Description of this data)
 - [Running the tests](#Running_the_tests)
 - [Deployment](#Deployment)
 - [accuracy](#accuracy)
@@ -32,8 +33,13 @@ In this section you will know More bout this interesting project :smiley:
 
 ## overview
 
+Classification is a really hard problem because if you need a good result  you must pass certain steps from data you use until what technique you use . The most important part is the dataset you use .
 
+No one takes care of grammar when he speaks or writes neither in english nor in arabic that’s the meaning of “Slang” . 
 
+we tried our moel to be robust so we used slang language collected from facebook .
+
+in the next steps we would show steps from pass tokens to CountVectorizer and why using naive bayes  reached a good results of 97 % , and why using  modified finite state Automaton Tashaphyne 0.3.4.1 didn’t improve our result .
  
 ---
 ### Prerequisites
@@ -76,6 +82,16 @@ In this section you will know More bout this interesting project :smiley:
 * Training and testing sets
 * Naive Bayes implementation using scikit-learn
 * Evaluating our model
+
+---
+
+### Description of this data
+
+dataset contains 25,000 posts collected from Facebook and classified into ten categories, politics, economics, sport, religion, technology, TV, ads, foods, health, and porno
+
+<p align="center">
+  <img src="./images/data.PNG"/>
+</p>
 
 ---
 
@@ -227,6 +243,18 @@ doc_array = count_vector.transform(documents).toarray()
 
 ---
 
+### Naive Bayes
+
+Bayes Theorem is one of the earliest probabilistic inference algorithms. It was developed by Reverend Bayes (which he used to try and infer the existence of God no less), and still performs extremely well for certain use cases.
+
+It's best to understand this theorem using an example. Let's say you are a member of the Secret Service and you have been deployed to protect the Democratic presidential nominee during one of his/her campaign speeches. Being a public event that is open to all, your job is not easy and you have to be on the constant lookout for threats. So one place to start is to put a certain threat-factor for each person. So based on the features of an individual, like the age, sex, and other smaller factors like whether the person is carrying a bag, looks nervous, etc., you can make a judgment call as to whether that person is a viable threat.
+
+This is the 'Naive' bit of the theorem where it considers each feature to be independent of each other which may not always be the case and hence that can affect the final judgement.
+
+In short, Bayes Theorem calculates the probability of a certain event happening (in our case, a message being spam) based on the joint probabilistic distributions of certain other events (in our case, the appearance of certain words in a message). We will dive into the workings of Bayes Theorem later in the mission, but first, let us understand the data we are going to work with.
+
+---
+
 ### Naive Bayes implementation using scikit-learn
 
 ```
@@ -249,8 +277,6 @@ len(preprocessed_documents)
 
 ```
 - output
-
-- output
 <p  width = 300 , height = 20>
   <img src="./images/stopwards.PNG"/>
 </p>
@@ -264,8 +290,6 @@ predictions = naive_bayes.predict(testing_data)
 print(predictions)
 
 ```
-- output
-
 - output
 <p  width = 300 , height = 20>
   <img src="./images/output2.PNG"/>
