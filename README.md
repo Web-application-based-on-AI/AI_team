@@ -2,7 +2,9 @@
 
 post classifier using Bag of words technique to classify posts in social media network into lots of categories
 
-like political,economic, etc
+like  politics, economics, sport, religion, technology, TV, ads, foods, health, and porno
+
+dataset contains 25,000 posts collected from Facebook and classified into ten categories
 
 ---
 
@@ -44,6 +46,7 @@ in the next steps we would show steps from pass tokens to CountVectorizer and wh
 ---
 ### Prerequisites
 
+* basic acknowledge of tokenization and parser
 * basic acknowledge about Naive Bayes Theorem
 * python 
 * numpy and pandas
