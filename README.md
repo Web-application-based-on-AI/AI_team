@@ -20,6 +20,7 @@ In this section you will know More bout this interesting project :smiley:
 - [Running the tests](#Running_the_tests)
 - [Deployment](#Deployment)
 - [accuracy](#accuracy)
+- [stemming](#stemming)
 - [Built With](#Built_With)
 - [Contributing](#Contributing)
 - [Versioning](#Versioning)
@@ -254,29 +255,96 @@ print(predictions)
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
 ```
+* accuracy with no stop wards
+
 <p align = "center" ,width = 300 , height = 400>
-  <img src="./images/acc.jpg"/>
+  <img src="./images/no_stop_words.jpg"/>
+</p>
+
+* accuracy with ntlk _stop_words_only
+
+<p align = "center" ,width = 300 , height = 400>
+  <img src="./images/ntlk _stop_words_only .jpg"/>
+</p>
+
+* accuarcy using ntlk stop wards and using stemming .jpg
+
+<p align = "center" ,width = 300 , height = 400>
+  <img src="./images/accuarcy using ntlk stop wards and using stemming .jpg"/>
 </p>
 
 
+### stemming
+
+using Tashaphyne libraries [here](https://pypi.org/project/Tashaphyne/)
+
+* about this libraries
+
+    Tashaphyne is an Arabic light stemmer and segmentor. It mainly supports light stemming (removing prefixes and suffixes) and give all
+
+    possible segmentations. It use a modified finite state Automaton which allow to generate all segmentations.
+
+    It offers stemming and root extraction at the same time unlike Khoja stemmer, ISRI semmer, Assem stemmer, Farasa stemmer.
+
+    Tashaphyne comes with default prefixes and suffixes, and accept the use of customized prefixes and suffixes list, which allow it to
+
+    handle more aspect, and make customized stemmers without changing code.
+
+---
+
+* Features
+
+1- Arabic word Light Stemming.
+
+2- Root Extraction.
+
+3- Word Segmentation
+
+4- Word normalization
+
+5- Default Arabic Affixes list.
+
+---
+
+* Applications
+
+1- Stemming texts
+
+2- Text Classification and categorization
+
+3- Sentiment Analysis
+
+4- Named Entities Recognition
+
+---
+
+* Installation
+
+```
+pip install tashaphyne
+
+```
+---
 
 ### Deployment
 
-Add additional notes about how to deploy this on a live system
+```
+this project we deploy it on herouko
+```
+
+[herouko](https://posts-classification.herokuapp.com/)
 
 ---
 
 ### Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [herouko](https://posts-classification.herokuapp.com/) - The website framework used to deploy project
 
 ---
 ### dataset
 
 dataset from our paper research 
-[paper]()
+[paper](https://www.researchgate.net/publication/322704992_Building_Online_Social_Network_Dataset_for_Arabic_Text_Classification?fbclid=IwAR2pvpBJ42yM1s6YnvGkb-kyD1XLh2HviwWDF0muqEgJL9dB0eo73vqIkCU)
 
 ## Authors
 
