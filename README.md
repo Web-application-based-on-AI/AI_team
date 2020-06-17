@@ -308,8 +308,8 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 ```
 * accuracy with no stop wards
 
-<p align = "center" ,width = 150 , height = 200>
-  <img src="./images/no_stop_words.jpg"/>
+<p align = "center" ,width = "150" , height = "100">
+  <img src="./images/no_stop_wordsn.jpg"/>
 </p>
 
 * accuracy with ntlk _stop_words_only
