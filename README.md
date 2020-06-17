@@ -291,6 +291,8 @@ print(predictions)
 
 ```
 - output
+| input         		      |     label	        					|
+|:---------------------:|:---------------------------------------------:|
 <p  width = 300 , height = 20>
   <img src="./images/output2.PNG"/>
 </p>
