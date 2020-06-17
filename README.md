@@ -5,7 +5,7 @@ post classifier using Bag of words technique to classify posts in social media n
 dataset contains 25,000 posts collected from Facebook and classified into ten categories
 
 ---
-* final image 
+* style project
 
 <p width = 400 , height = 300>
   <img src="./images/finaln.PNG"/>
