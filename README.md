@@ -305,25 +305,25 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 ```
 * accuracy with no stop wards
 
-<p align = "center" ,width = 300 , height = 400>
+<p align = "center" ,width = 150 , height = 200>
   <img src="./images/no_stop_words.jpg"/>
 </p>
 
 * accuracy with ntlk _stop_words_only
 
-<p align = "center" ,width = 300 , height = 400>
+<p align = "center" ,width = 150 , height = 200>
   <img src="./images/ntlk _stop_words_only .jpg"/>
 </p>
 
 * accuarcy using ntlk stop wards and using stemming
 
-<p align = "center" ,width = 300 , height = 400>
-  <img src="./images/accuarcy using ntlk stop wards and using stemming .jpg"/>
+<p align = "center" ,width = 150 , height = 200>
+  <img src="images/accuarcy using ntlk  stop wards and using stemming  .jpg"/>
 </p>
 
 * accuarcy using big stop words of nltk and mine 1973 total length
 
-<p align = "center" ,width = 300 , height = 400>
+<p align = "center" ,width = 150 , height = 200>
   <img src="./images/after_stopwards_total.jpg">
 </p>
 
@@ -393,7 +393,7 @@ pip install tashaphyne
 this project we deploy it on herouko
 ```
 
-[herouko](https://posts-classification.herokuapp.com/)
+[herouko](https://www.heroku.com/)
 
 ---
 
