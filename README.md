@@ -277,8 +277,8 @@ len(preprocessed_documents)
 
 ```
 - output
-<p  width = 300 , height = 20>
-  <img src="./images/stopwards.PNG"/>
+<p  width = "100" , height = "50">
+  <img src="./images/stopwardsn.PNG"/>
 </p>
 
 
