@@ -314,19 +314,19 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 
 * accuracy with ntlk _stop_words_only
 
-<p align = "center" ,width = 150 , height = 200>
+<p align = "center" ,width = "100" , height = "100">
   <img src="./images/ntlk _stop_words_onlyn.PNG"/>
 </p>
 
 * accuarcy using ntlk stop wards and using stemming
 
-<p align = "center" ,width = 150 , height = 200>
+<p align = "center" ,width = "100" , height = "100">
   <img src="images/accuarcy using ntlk  stop wards and using stemming  .jpg"/>
 </p>
 
 * accuarcy using big stop words of nltk and mine 1973 total length
 
-<p align = "center" ,width = 150 , height = 200>
+<p align = "center" ,width = "100" , height = "100">
   <img src="./images/after_stopwards_total.jpg">
 </p>
 
