@@ -1,8 +1,6 @@
 # Project Title
 
-post classifier using Bag of words technique to classify posts in social media network into lots of categories
-
-like  politics, economics, sport, religion, technology, TV, ads, foods, health, and porno
+post classifier using Bag of words technique to classify posts in social media network into lots of categorieslike  politics, economics, sport, religion, technology, TV, ads, foods, health, and porno
 
 dataset contains 25,000 posts collected from Facebook and classified into ten categories
 
