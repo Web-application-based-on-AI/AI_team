@@ -66,6 +66,8 @@ in the next steps we would show steps from pass tokens to CountVectorizer and wh
    from sklearn.model_selection import train_test_split
    from sklearn.feature_extraction.text import CountVectorizer
    from sklearn.preprocessing import LabelEncoder
+   from tashaphyne.stemming import ArabicLightStemmer
+   from sklearn.metrics import classification_report
    import nltk
    nltk.download('stopwords')
    from nltk.corpus import stopwords
@@ -110,9 +112,9 @@ We will be using a dataset originally compiled and posted on the Machine Learnin
 ---
 ### Data Preprocessing
 
-Now that we have a basic understanding of what our dataset looks like, lets convert our labels to binary variables, 0 to represent 
+Just write we would use sample of data to show what we did , data of sms classification of ham and spam After that you can write at 
 
-'ham'(i.e. not spam) and 1 to represent 'spam' for ease of computation.
+final we would do all of that steps on our data Change it to be suitable to our data 
 
 You might be wondering why do we need to do this step? The answer to this lies in how scikit-learn handles inputs. Scikit-learn only 
 
@@ -126,6 +128,11 @@ performance metrics, for example when calculating our precision and recall score
 
 good practice to have our categorical values be fed into our model as integers. 
 
+
+```
+ dataset.predection.map({0:'Politic',1:'ads',2:'eco',3:'food',4:'health',5:'porno',6:'religion',7:'sports',8:'tech',9:'tv'})
+
+```
 ---
 ### Bag of words
 
@@ -258,6 +265,15 @@ In short, Bayes Theorem calculates the probability of a certain event happening 
 
 ---
 
+### why Naive Bayes algorithm is the best ??
+
+Naive Bayes are mostly used in natural language processing (NLP) problems. Naive Bayes predict the tag of a text. They calculate the probability of each tag for a given text and then output the tag with the highest one.
+
+One of the major advantages that Naive Bayes has over other classification algorithms is its ability to handle an extremely large number of features. In our case, each word is treated as a feature and there are thousands of different words. Also, it performs well even with the presence of irrelevant features and is relatively unaffected by them. The other major advantage it has is its relative simplicity. Naive Bayes' works well right out of the box and tuning it's parameters is rarely ever necessary, except usually in cases where the distribution of the data is known. It rarely ever overfits the data. Another important advantage is that its model training and prediction times are very fast for the amount of data it can handle. All in all, Naive Bayes' really is a gem of an algorithm!
+
+
+[If you want more use this link](https://www.geeksforgeeks.org/applying-multinomial-naive-bayes-to-nlp-problems/#:~:text=Naive%20Bayes%20are%20mostly%20used,tag%20with%20the%20highest%20one.)
+---
 ### Naive Bayes implementation using scikit-learn
 
 ```
@@ -318,7 +334,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
   <img src="./images/ntlk _stop_words_only .jpg"/>
 </p>
 
-* accuarcy using ntlk stop wards and using stemming .jpg
+* accuarcy using ntlk stop wards and using stemming
 
 <p align = "center" ,width = 300 , height = 400>
   <img src="./images/accuarcy using ntlk stop wards and using stemming .jpg"/>
@@ -329,6 +345,14 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 <p align = "center" ,width = 300 , height = 400>
   <img src="./images/after_stopwards_total.jpg">
 </p>
+
+* We can see that after using the long stop words list of 1973  the accuracy decreased so why ..? 
+
+The reason for that is the supplied list of stop words is for non-slang language so that doesn't improve anything . 
+And also stemming decreased the accuracy from 97 % to 96 % ! ….. ? 
+
+And that’s because stemming is mostly used in non-slang language also and most of the words that’s used in arabic does not belong to the language . 
+
 
 ### stemming
 
