@@ -127,21 +127,14 @@ Our model would still be able to make predictions if we left our labels as strin
 ### Bag of words
 
 What we have here in our data set is a large collection of text data (5,572 rows of data). Most ML algorithms rely on numerical data to
-
 be fed into them as input, and email/sms messages are usually text heavy.
 
-Here we'd like to introduce the Bag of Words(BoW) concept which is a term used to specify the problems that have a 'bag of words' or
+Here we'd like to introduce the Bag of Words(BoW) concept which is a term used to specify the problems that have a 'bag of words' ora collection of text data that needs to be worked with. The basic idea of BoW is to take a piece of text and count the frequency of the 
+words in that text. 
 
-a collection of text data that needs to be worked with. The basic idea of BoW is to take a piece of text and count the frequency of the 
+It is important to note that the BoW concept treats each word individually and the order in which the words occur does not matter.
 
-words in that text. It is important to note that the BoW concept treats each word individually and the order in which the words occur 
-
-does not matter.
-
-Using a process which we will go through now, we can covert a collection of documents to a matrix, with each document being a row and 
-
-each word(token) being the column, and the corresponding (row,column) values being the frequency of occurrance of each word or token in
-
+Using a process which we will go through now, we can covert a collection of documents to a matrix, with each document being a row and each word(token) being the column, and the corresponding (row,column) values being the frequency of occurrance of each word or token in
 that document.
 
 ### steps of Bag of words
@@ -418,12 +411,7 @@ dataset from our paper research
 
 ## Authors
 
-
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/post-classifiy/post-classify/blob/master/README.md) file for details
+* automata team 
 
 ---
 
