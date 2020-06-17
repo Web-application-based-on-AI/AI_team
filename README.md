@@ -294,27 +294,27 @@ using Tashaphyne libraries [here](https://pypi.org/project/Tashaphyne/)
 
 * Features
 
-1- Arabic word Light Stemming.
+   1- Arabic word Light Stemming.
 
-2- Root Extraction.
+   2- Root Extraction.
 
-3- Word Segmentation
+   3- Word Segmentation
 
-4- Word normalization
+   4- Word normalization
 
-5- Default Arabic Affixes list.
+   5- Default Arabic Affixes list.
 
 ---
 
 * Applications
 
-1- Stemming texts
+   1- Stemming texts
 
-2- Text Classification and categorization
+   2- Text Classification and categorization
 
-3- Sentiment Analysis
+   3- Sentiment Analysis
 
-4- Named Entities Recognition
+   4- Named Entities Recognition
 
 ---
 
