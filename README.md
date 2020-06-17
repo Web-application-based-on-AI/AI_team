@@ -100,7 +100,7 @@ dataset contains 25,000 posts collected from Facebook and classified into ten ca
 
 ### Understanding our dataset 
 
-We will be using a dataset originally compiled and posted on the Machine Learning website search has a very good collection of datasets for experimental research purposes. If you're interested, you can review the abstract and the original data file on the wep site.
+We will  use a dataset originally compiled and posted on the Machine Learning website search has a very good collection of datasets for experimental research purposes. If you're interested, you can review the abstract and the original data file on the wep site.
 
 <p align="center">
   <img src="./images/Captureautomata.PNG"/>
@@ -110,7 +110,7 @@ We will be using a dataset originally compiled and posted on the Machine Learnin
 ---
 ### Data Preprocessing
 
-data of sms classification of ham and spam After that you can write at final we would do all of that steps on our data Change it to be suitable to our data You might be wondering why do we need to do this step? The answer to this lies in how scikit-learn handles inputs.
+we will show example of technique we used at data of sms classification of ham and spam ,  After that we would go through our data .You might be wondering why do we need to do this step? The answer to this lies in how scikit-learn handles inputs.
 
 Scikit-learn only deals with numerical values and hence if we were to leave our label values as strings, scikit-learn would do the conversion internally(more specifically, the string labels will be cast to unknown float values).
 
@@ -409,7 +409,7 @@ dataset from our paper research
 
 ## Authors
 
-* automata team 
+* 💕 team 
 
 ---
 
