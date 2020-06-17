@@ -7,7 +7,9 @@ dataset contains 25,000 posts collected from Facebook and classified into ten ca
 ---
 * final image 
 
-[image1]: ./images/final.PNG "Data Image "
+<p width = 400 , height = 300>
+  <img src="./images/finaln.PNG"/>
+</p>
 
 ---
 
