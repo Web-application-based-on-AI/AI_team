@@ -94,7 +94,7 @@ in the next steps we would show steps from pass tokens to CountVectorizer and wh
 
 dataset contains 25,000 posts collected from Facebook and classified into ten categories, politics, economics, sport, religion, technology, TV, ads, foods, health, and porno
 
-<p align="center">
+<p align="center" width = 200>
   <img src="./images/data.PNG"/>
 </p>
 
@@ -112,21 +112,11 @@ We will be using a dataset originally compiled and posted on the Machine Learnin
 ---
 ### Data Preprocessing
 
-Just write we would use sample of data to show what we did , data of sms classification of ham and spam After that you can write at 
+data of sms classification of ham and spam After that you can write at final we would do all of that steps on our data Change it to be suitable to our data You might be wondering why do we need to do this step? The answer to this lies in how scikit-learn handles inputs.
 
-final we would do all of that steps on our data Change it to be suitable to our data 
+Scikit-learn only deals with numerical values and hence if we were to leave our label values as strings, scikit-learn would do the conversion internally(more specifically, the string labels will be cast to unknown float values).
 
-You might be wondering why do we need to do this step? The answer to this lies in how scikit-learn handles inputs. Scikit-learn only 
-
-deals with numerical values and hence if we were to leave our label values as strings, scikit-learn would do the conversion 
-
-internally(more specifically, the string labels will be cast to unknown float values).
-
-Our model would still be able to make predictions if we left our labels as strings but we could have issues later when calculating 
-
-performance metrics, for example when calculating our precision and recall scores. Hence, to avoid unexpected 'gotchas' later, it is 
-
-good practice to have our categorical values be fed into our model as integers. 
+Our model would still be able to make predictions if we left our labels as strings but we could have issues later when calculating performance metrics, for example when calculating our precision and recall scores. Hence, to avoid unexpected 'gotchas' later, it is good practice to have our categorical values be fed into our model as integers. 
 
 
 ```
