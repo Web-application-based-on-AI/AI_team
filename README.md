@@ -8,7 +8,7 @@ dataset contains 25,000 posts collected from Facebook and classified into ten ca
 * style project
 
 <p width = 400 , height = 300>
-  <img src="./images/finaln.PNG"/>
+  <img src="./images/finalnn.jpg"/>
 </p>
 
 ---
