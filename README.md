@@ -239,7 +239,16 @@ doc_array = count_vector.transform(documents).toarray()
   <img src="./images/count2.PNG"/>
 </p>
 
+
+- frequency matrix 
+<p width = 300 , height = 50>
+  <img src="./images/zz.jpg"/>
+</p>
+
 ---
+
+
+
 
 ### Naive Bayes
 
