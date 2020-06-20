@@ -328,13 +328,13 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
   <img src="./images/no_stop_wordsn.PNG"/>
 </p>
 
-* accuracy with ntlk _stop_words_only
+* accuracy with nltk _stop_words_only
 
 <p align = "center" ,width = "100" , height = "100">
   <img src="./images/ntlk _stop_words_onlyn.PNG"/>
 </p>
 
-* accuarcy using ntlk stop wards and using stemming
+* accuarcy using nltk stop wards and using stemming
 
 <p align = "center" ,width = "100" , height = "100">
   <img src="images/accuarcy using ntlk  stop wards and using stemming  .jpg"/>
