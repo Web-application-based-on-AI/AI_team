@@ -343,7 +343,8 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 
 * accuarcy using big stop words of nltk and mine 1973 total length
 
-![](./images/after_stopwards_total.jpg =100x20)
+<img src="./images/after_stopwards_total.jpg" alt="drawing" width="50"/>
+
 
 
 
