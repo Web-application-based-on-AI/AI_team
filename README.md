@@ -1,4 +1,4 @@
-# Project Title
+
 
 post classifier using Bag of words technique to classify posts in social media network into lots of categorieslike  politics, economics, sport, religion, technology, TV, ads, foods, health, and porno
 
