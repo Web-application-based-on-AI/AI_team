@@ -343,7 +343,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 
 * accuarcy using big stop words of nltk and mine 1973 total length
 
-<p align = "center" ,width = "50" , height = "50">
+<p align = "center" ,width = "500" , height = "500">
   <img src="./images/after_stopwards_total.jpg">
 </p>
 
@@ -413,7 +413,7 @@ pip install tashaphyne
 this project we deploy it on herouko you can try it via link bellow 
 ```
 
-* [herouko](https://posts-classification.herokuapp.com/) 
+* [postclassify model](https://posts-classification.herokuapp.com/) 
 
 ---
 
