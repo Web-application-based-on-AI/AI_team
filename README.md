@@ -344,8 +344,10 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 * accuarcy using big stop words of nltk and mine 1973 total length
 
 <p align = "center" ,width = "500" , height = "500">
-  <img src="./images/after_stopwards_total.jpg">
+  ![](./images/after_stopwards_total.jpg =100x20)
 </p>
+
+
 
 * We can see that after using the long stop words list of 1973  the accuracy decreased so why ..? 
 
